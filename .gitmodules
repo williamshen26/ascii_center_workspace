@@ -1,0 +1,6 @@
+[submodule "packages/ascii_center"]
+	path = packages/ascii_center
+	url = git@github.com:williamshen26/ascii_center.git
+[submodule "packages/ascii_shared_ui"]
+	path = packages/ascii_shared_ui
+	url = git@github.com:williamshen26/ascii_shared_ui.git

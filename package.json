@@ -1,0 +1,5 @@
+{
+  "name": "ascii-workspace",
+  "private": true,
+  "workspaces": ["packages/*"]
+}
