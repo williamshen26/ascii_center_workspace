@@ -34,13 +34,22 @@ importers:
         version: 5.4.21
 
   packages/ascii_shared_ui:
-    dependencies:
+    devDependencies:
+      '@types/react':
+        specifier: ^18.3.27
+        version: 18.3.27
+      '@types/react-dom':
+        specifier: ^18.3.7
+        version: 18.3.7(@types/react@18.3.27)
       react:
-        specifier: '>=18'
+        specifier: ^18.3.1
         version: 18.3.1
       react-dom:
-        specifier: '>=18'
+        specifier: ^18.3.1
         version: 18.3.1(react@18.3.1)
+      typescript:
+        specifier: ^5.9.3
+        version: 5.9.3
 
 packages:
 
