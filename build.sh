@@ -50,7 +50,7 @@ echo ""
 if [ "$DEPLOY" = "1" ]; then
     echo -e "\033[0;33mStep 3: Deploying to Home Assistant...\033[0m"
     SOURCE_DIR="$SCRIPT_DIR/packages/ascii_center/dist"
-    TARGET_DIR="//192.168.1.4/config/www/ascii"
+    TARGET_DIR="//192.168.1.5/config/www/ascii"
     
     if [ -d "$TARGET_DIR" ] || [ -L "$TARGET_DIR" ]; then
         cp -r "$SOURCE_DIR"/* "$TARGET_DIR"/ 2>/dev/null && {
